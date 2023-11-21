@@ -20,3 +20,41 @@ error: Package 'Microsoft.EntityFrameworkCore.Sqlite' is incompatible with 'all'
 Adicionar o pacote Design 
 Será utilizado para gerar as migrações do BD
 `dotnet add package Microsoft.EntityFrameworkCore.Design -v 6.0.24`
+
+
+Criado arquivo Todo.cs na pasta Models 
+Criado class Todo com três atributos (id, title, done)
+
+Criado arquivo Data/AppDbContext.cs ele represeta o contexto dos dados, seram os dados em memória.
+Utiliza esse arquivo para mapear as entidades com os modelos
+
+DbContext -> representa o BD
+DbSet -> representa a tabela
+
+OnConfiguring - não é utilizado pelo template da versão 6
+Então foi utilizado o [artigo](https://macoratti.net/21/10/aspn6_expminapi1.htm) para configura o BD
+
+
+dotnet clean
+dotnet build 
+
+dotnet ef migrations add InitialCreation - cria uma migração
+
+dotnet ef database update - atualiza o banco a partir das migrations
+
+Para versão 6, é necessário instalar a ferarmente do dotnet-ef 
+`dotnet tool install --global dotnet-ef --version 7.0.0
+`
+
+Remove a ultima migração
+dotnet ef migrations remove
+
+
+Criado arquivo Controllers/TodoController.cs
+
+Definido uma class TodoContoller que extende da class ControllerBase
+
+Criado um método para o verbo Get para listar as tarefas
+
+
+dotnet watch run
