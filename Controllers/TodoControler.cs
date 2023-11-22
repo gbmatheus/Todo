@@ -5,7 +5,7 @@ namespace TodoApi.Controllers
 {
 
     [ApiController]
-    [Route("vi")]
+    [Route("v1")]
     public class TodoController: ControllerBase
     {
         [HttpGet]
