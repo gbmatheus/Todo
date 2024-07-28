@@ -1,0 +1,8 @@
+/home/gbmatheus/github.com/gbmatheus/Todo/src/Api/obj/Debug/net8.0/Api.csproj.AssemblyReference.cache
+/home/gbmatheus/github.com/gbmatheus/Todo/src/Api/obj/Debug/net8.0/Api.GeneratedMSBuildEditorConfig.editorconfig
+/home/gbmatheus/github.com/gbmatheus/Todo/src/Api/obj/Debug/net8.0/Api.AssemblyInfoInputs.cache
+/home/gbmatheus/github.com/gbmatheus/Todo/src/Api/obj/Debug/net8.0/Api.AssemblyInfo.cs
+/home/gbmatheus/github.com/gbmatheus/Todo/src/Api/obj/Debug/net8.0/Api.csproj.CoreCompileInputs.cache
+/home/gbmatheus/github.com/gbmatheus/Todo/src/Api/obj/Debug/net8.0/Api.MvcApplicationPartsAssemblyInfo.cs
+/home/gbmatheus/github.com/gbmatheus/Todo/src/Api/obj/Debug/net8.0/Api.MvcApplicationPartsAssemblyInfo.cache
+/home/gbmatheus/github.com/gbmatheus/Todo/src/Api/obj/Debug/net8.0/Api.sourcelink.json
