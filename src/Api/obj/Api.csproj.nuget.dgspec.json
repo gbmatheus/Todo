@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "\\\\wsl.localhost\\Ubuntu\\home\\gbmatheus\\github.com\\gbmatheus\\Todo\\src\\Api\\Api.csproj": {}
+    "E:\\github\\gbmatheus\\Todo\\src\\Api\\Api.csproj": {}
   },
   "projects": {
-    "\\\\wsl.localhost\\Ubuntu\\home\\gbmatheus\\github.com\\gbmatheus\\Todo\\src\\Api\\Api.csproj": {
+    "E:\\github\\gbmatheus\\Todo\\src\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\wsl.localhost\\Ubuntu\\home\\gbmatheus\\github.com\\gbmatheus\\Todo\\src\\Api\\Api.csproj",
+        "projectUniqueName": "E:\\github\\gbmatheus\\Todo\\src\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "\\\\wsl.localhost\\Ubuntu\\home\\gbmatheus\\github.com\\gbmatheus\\Todo\\src\\Api\\Api.csproj",
+        "projectPath": "E:\\github\\gbmatheus\\Todo\\src\\Api\\Api.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "\\\\wsl.localhost\\Ubuntu\\home\\gbmatheus\\github.com\\gbmatheus\\Todo\\src\\Api\\obj\\",
+        "outputPath": "E:\\github\\gbmatheus\\Todo\\src\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j85Q3Ab3LqIaO2oIl9iKuyjed7yEVW8Qx9xTT0lj2qp1PrMAr2BNo7tCISo9vrzA2cwyqJIUoXw+jSASXGnEhA==",
+  "dgSpecHash": "nsqnXslEk/cKagXGZ+g92E7t+Va1wqRGD6qPkOV6hHLRqE7jZ8RSPuOrg9bvkLvXVpJfdaV4ZMWaZzHaW4Z44Q==",
   "success": true,
-  "projectFilePath": "\\\\wsl.localhost\\Ubuntu\\home\\gbmatheus\\github.com\\gbmatheus\\Todo\\src\\Api\\Api.csproj",
+  "projectFilePath": "E:\\github\\gbmatheus\\Todo\\src\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.7\\microsoft.data.sqlite.core.8.0.7.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.7\\microsoft.entityframeworkcore.8.0.7.nupkg.sha512",
