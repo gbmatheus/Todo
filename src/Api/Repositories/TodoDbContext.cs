@@ -10,7 +10,7 @@ namespace Api.Repositories
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite(@"Data Source=E:\github\gbmatheus\Todo\todo.db");
+            optionsBuilder.UseSqlite(@"Data Source=E:\github\gbmatheus\Todo-DB\todo.db");
         }
     }
 }
