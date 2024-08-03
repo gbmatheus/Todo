@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Api.Entities;
+using Api.Domain.Entities;
 
 namespace Api.Repositories
 {

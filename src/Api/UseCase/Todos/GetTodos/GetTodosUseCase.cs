@@ -1,4 +1,4 @@
-using Api.Entities;
+using Api.Domain.Entities;
 using Api.Repositories;
 using System.Collections.Generic;
 

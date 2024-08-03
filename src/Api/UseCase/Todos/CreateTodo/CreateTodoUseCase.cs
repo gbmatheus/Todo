@@ -1,5 +1,5 @@
 ﻿using Api.Comunnication.Requests.CreateTodo;
-using Api.Entities;
+using Api.Domain.Entities;
 using Api.Repositories;
 
 namespace Api.UseCase.Todos.CreateTodo

@@ -1,4 +1,4 @@
-﻿using Api.Entities;
+﻿using Api.Domain.Entities;
 using Api.Repositories;
 
 namespace Api.UseCase.Todos.GetTodoById
@@ -9,6 +9,8 @@ namespace Api.UseCase.Todos.GetTodoById
         {
             var repository = new TodoDbContext();
             var todo = repository.Todos.FirstOrDefault(t => t.Id == id) as Todo;
+
+            if (todo == null) return null;
 
             return todo;
         }
