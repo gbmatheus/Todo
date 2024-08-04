@@ -1,6 +1,7 @@
-using Api.Comunnication.Requests.CreateTodo;
-using Api.Comunnication.Requests.UpdateTodo;
+using Api.Comunnication.Requests.Todo;
 using Api.Comunnication.Responses;
+using Api.Comunnication.Responses.Error;
+using Api.Comunnication.Responses.Todo;
 using Api.UseCase.Todos.CreateTodo;
 using Api.UseCase.Todos.DeleteTodo;
 using Api.UseCase.Todos.GetTodoById;
@@ -24,9 +25,17 @@ namespace Api.Controllers
         [HttpPost]
         public IActionResult Create([FromBody] RequestCreateTodoJson todo)
         {
-            var result = new CreateTodoUseCase().execute(todo);
-            var response = new ResponseCreatedTodoJson { Id = result.Id, Name = result.Name };
-            return Created(string.Empty, response);
+            try
+            {
+                var useCase = new CreateTodoUseCase();
+                var response = useCase.execute(todo);
+                return Created(string.Empty, response);
+            } catch (BadHttpRequestException ex)
+            {
+                var response = new ResponseErrorJson(ex.Message);
+                return BadRequest(response);
+            }
+
         }
 
         [HttpGet]
@@ -34,6 +43,9 @@ namespace Api.Controllers
         public IActionResult GetTodo([FromRoute] int id)
         {
             var result = new GetTodoByIdUseCase().execute(id);
+
+            if(result == null)
+                    return NotFound();
             var response = new ReponseGetTodoJson()
             {
                 Id = result.Id,

@@ -1,4 +1,4 @@
-﻿using Api.Comunnication.Requests.UpdateTodo;
+﻿using Api.Comunnication.Requests.Todo;
 using Api.Repositories;
 
 namespace Api.UseCase.Todos.UpdateTodo

@@ -1,4 +1,4 @@
-﻿namespace Api.Comunnication.Responses
+﻿namespace Api.Comunnication.Responses.Todo
 {
     public class ResponseCreatedTodoJson
     {
