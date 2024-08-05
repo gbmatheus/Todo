@@ -40,21 +40,13 @@ namespace Api.Controllers
 
         [HttpGet]
         [Route("{id}")]
-        public IActionResult GetTodo([FromRoute] int id)
+        public IActionResult Get([FromRoute] int id)
         {
-            var result = new GetTodoByIdUseCase().execute(id);
+            var useCase = new GetTodoByIdUseCase();
+            var response = useCase.execute(id);
 
-            if(result == null)
+            if (response == null)
                     return NotFound();
-            var response = new ReponseGetTodoJson()
-            {
-                Id = result.Id,
-                Name = result.Name,
-                Description = result.Description,
-                Deadline = result.Deadline,
-                Status = result.Status,
-                Priority = result.Priority,
-            };
             return Ok(response);
         }
 
